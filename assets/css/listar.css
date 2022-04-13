@@ -1,0 +1,115 @@
+.main_header {
+    width: 100%;
+    z-index: 1;
+    background-color: var(--white) !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.main_header img {
+    width: 100%;
+    height: 60px;
+}
+
+.main_header .navbar-collapse li {
+    padding: 0 30px;
+}
+
+.main_header .navbar-collapse a {
+    font-weight: 500;
+    color: var(--black) !important;
+}
+
+.main_header .navbar-collapse a:hover {
+    font-weight: 500;
+    color: var(--orange) !important;
+}
+
+.main_tables {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.main_tables table {
+    border: 1px solid var(--black);
+}
+
+.main_tables thead {
+    background: var(--blue);
+    color: var(--white);
+}
+
+.main_tables thead tr th {
+    font-weight: 500;
+}
+
+.main_tables tbody tr td {
+    font-weight: 500;
+    font-size: .9em;
+    align-self: center;
+}
+
+.main_tables tbody tr td .importar {
+    font-size: 1.4em;
+    color: #0047A4;
+    margin: 0;
+    padding: 0;
+}
+
+.main_tables tbody tr td .editar {
+    font-size: 1.4em;
+    color: #0047A4;
+    margin: 0;
+    padding: 0;
+}
+
+.main_tables tbody tr td .excluir {
+    font-size: 1.4em;
+    color: #8f1c1c;
+    margin: 0;
+    padding: 0;
+}
+
+.main_tables tbody tr td .form-check label {
+    font-weight: 500;
+}
+
+.main_tables .modal form label {
+    font-weight: 500;
+    font-size: 0.9em;
+    margin: 10px 0 0 0;
+    padding: 0
+}
+
+.main_tables .modal form input {
+    border: 1px solid var(--gray);
+    font-size: 0.9em;
+}
+
+.main_tables .modal label {
+    font-weight: 500;
+    font-size: 0.9em;
+    margin: 0;
+    padding: 0
+}
+
+.main_tables .modal p {
+    font-weight: 500;
+    font-size: 0.9em;
+    margin: 0;
+    padding: 0
+}
+
+.main_tables .modal input {
+    border: 1px solid var(--gray);
+    font-size: 0.9em;
+}
+
+.main_tables .modal textarea {
+    border: 1px solid var(--gray);
+    font-size: 0.9em;
+}
+
+.main_tables .modal select {
+    border: 1px solid var(--gray);
+    font-size: 0.9em;
+}
