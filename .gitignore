@@ -1,1 +1,4 @@
-/assets/lib/
+# ignora os arquivos com extensões 
+.gitignore
+# ignora quaisquer diretórios chamado "lib"
+.lib/
